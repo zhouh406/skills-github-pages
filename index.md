@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: zchhaa的主页
 title: 欢迎来到我的个人主页
 ---
 
