@@ -1,0 +1,34 @@
+# 主题设置
+theme: minima
+
+# 站点基本信息
+title: 个人主页
+description: 分享学习日常
+author: zchhaa
+
+# 站点URL配置
+url: "https://zhouh406.github.io"  # 替换为你的GitHub Pages网址
+baseurl: ""  # 通常留空，除非你的站点部署在子路径下
+
+# 社交媒体链接（minima主题会自动识别这些配置）
+twitter_username: your_twitter_handle
+github_username: your_github_username
+linkedin_username: your_linkedin_username
+
+# 导航菜单配置
+header_pages:
+  - about.md
+  - posts.md
+  - projects.md
+
+# 博客设置
+permalink: /posts/:title/  # 文章链接格式
+paginate: 5  # 每页显示的文章数量
+
+# 时区设置
+timezone: Asia/Shanghai
+
+# 插件配置
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
