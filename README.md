@@ -1,26 +1,33 @@
-# 我的个人博客 📝
 
-欢迎来到我的个人博客仓库！这是我在 GitHub Pages 上搭建的第一个博客，主要用于记录学习心得、技术分享和生活思考。
 
-## 关于这个博客
+<!--
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
+-->
 
-- **主题**：使用 Jekyll 的 minima 主题搭建，简洁轻量
-- **内容**：主要包含技术笔记（如编程学习、工具使用）、个人项目记录和偶尔的生活感悟
-- **更新**：尽量保持每周更新，分享最新的学习成果
+## Step 2: Configure your site
 
-## 如何访问
+_You turned on GitHub Pages! :tada:_
 
-博客已部署在 GitHub Pages，可直接访问：  
-[https://yourusername.github.io](https://yourusername.github.io)  
-（请替换为你的实际 GitHub Pages 网址）
+We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
 
-## 仓库结构
+Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
 
-- `_config.yml`：博客配置文件（主题、作者信息等）
-- `index.md`：博客首页
-- `_posts/`：存放所有博客文章（按 `YYYY-MM-DD-标题.md` 格式命名）
-- `about.md`：关于页面
+We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
 
-这是我第一次尝试搭建和维护博客，过程中可能会有不完善的地方，欢迎通过 [GitHub Issues](https://github.com/yourusername/yourusername.github.io/issues) 提出建议！
+### :keyboard: Activity: Configure your site
 
-感谢你的访问！✨
+1. Browse to the `_config.yml` file in the `my-pages` branch.
+1. In the upper right corner, open the file editor.
+1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
+   ```yml
+   theme: minima
+   ```
+1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
+1. Commit your changes.
+1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
+1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+
+
