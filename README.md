@@ -1,54 +1,26 @@
-<header>
+# 我的个人博客 📝
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+欢迎来到我的个人博客仓库！这是我在 GitHub Pages 上搭建的第一个博客，主要用于记录学习心得、技术分享和生活思考。
 
-# GitHub Pages
+## 关于这个博客
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+- **主题**：使用 Jekyll 的 minima 主题搭建，简洁轻量
+- **内容**：主要包含技术笔记（如编程学习、工具使用）、个人项目记录和偶尔的生活感悟
+- **更新**：尽量保持每周更新，分享最新的学习成果
 
-</header>
+## 如何访问
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+博客已部署在 GitHub Pages，可直接访问：  
+[https://yourusername.github.io](https://yourusername.github.io)  
+（请替换为你的实际 GitHub Pages 网址）
 
-## Step 1: Enable GitHub Pages
+## 仓库结构
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+- `_config.yml`：博客配置文件（主题、作者信息等）
+- `index.md`：博客首页
+- `_posts/`：存放所有博客文章（按 `YYYY-MM-DD-标题.md` 格式命名）
+- `about.md`：关于页面
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+这是我第一次尝试搭建和维护博客，过程中可能会有不完善的地方，欢迎通过 [GitHub Issues](https://github.com/yourusername/yourusername.github.io/issues) 提出建议！
 
-### :keyboard: Activity: Enable GitHub Pages
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+感谢你的访问！✨
