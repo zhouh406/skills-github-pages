@@ -75,88 +75,57 @@ title: 个人主页 | zchhaa
 </div>
 
 <style>
-  /* 全局基础样式 */
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.7;
-    max-width: 850px;
-    margin: 0 auto;
-    padding: 25px 20px;
-    color: #333;
-  }
-
-  /* 顶部欢迎区样式 */
-  .hero {
-    text-align: center;
-    margin-bottom: 45px;
-  }
-  .hero h1 {
-    font-size: 2.2em;
-    margin-bottom: 10px;
-  }
-  .hero-subtitle {
-    font-size: 1.1em;
-    color: #555;
-    margin-top: 0;
-  }
-
-  /* 卡片模块样式 */
-  .card {
-    background-color: #fdfdfd;
-    border-radius: 8px;
-    padding: 25px;
-    margin-bottom: 30px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
-    transition: box-shadow 0.3s ease;
-  }
-  .card:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-  }
-  .card h2 {
-    margin-top: 0;
-    color: #2c3e50;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 8px;
-  }
-
-  /* 分隔线样式 */
-  .divider {
-    border: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.1), transparent);
-    margin: 35px 0;
-  }
-
-  /* 项目列表样式 */
-  .project-list {
-    list-style: none;
-    padding-left: 0;
-  }
-  .project-list li {
-    margin-bottom: 20px;
-    border-left: 3px solid #3498db;
-    padding-left: 15px;
-  }
-  .project-list h3 {
-    margin: 0 0 8px 0;
-    font-size: 1.1em;
-  }
-
-  /* 社交链接样式 */
-  .social-links {
-    list-style: none;
-    padding-left: 0;
-  }
-  .social-links li {
-    margin: 10px 0;
-  }
-  .social-links a {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
-  .social-links a:hover {
-    color: #2980b9;
-    text-decoration: underline;
-  }
+/* 全局基础样式 */
+body { 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+  line-height: 1.7; 
+  max-width: 850px; 
+  margin: 0 auto; 
+  padding: 25px 20px; 
+  color: #333; 
+}
+/* 顶部欢迎区样式 */
+.hero { text-align: center; margin-bottom: 45px; }
+.hero h1 { font-size: 2.2em; margin-bottom: 10px; }
+.hero-subtitle { font-size: 1.1em; color: #555; margin-top: 0; }
+/* 卡片模块样式 */
+.card { 
+  background-color: #fdfdfd; 
+  border-radius: 8px; 
+  padding: 25px; 
+  margin-bottom: 30px; 
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05); 
+  transition: box-shadow 0.3s ease; 
+}
+.card:hover { box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08); }
+.card h2 { 
+  margin-top: 0; 
+  color: #2c3e50; 
+  border-bottom: 1px solid #eee; 
+  padding-bottom: 8px; 
+}
+/* 分隔线样式 */
+.divider { 
+  border: 0; 
+  height: 1px; 
+  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.1), transparent); 
+  margin: 35px 0; 
+}
+/* 项目列表样式 */
+.project-list { list-style: none; padding-left: 0; }
+.project-list li { 
+  margin-bottom: 20px; 
+  border-left: 3px solid #3498db; 
+  padding-left: 15px; 
+}
+.project-list h3 { margin: 0 0 8px 0; font-size: 1.1em; }
+/* 社交链接样式 */
+.social-links { list-style: none; padding-left: 0; }
+.social-links li { margin: 10px 0; }
+.social-links a { 
+  color: #3498db; 
+  text-decoration: none; 
+  transition: color 0.2s ease; 
+}
+.social-links a:hover { color: #2980b9; text-decoration: underline; }
 </style>
