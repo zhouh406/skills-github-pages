@@ -1,24 +1,54 @@
 # 站点基础信息
 title: zchhaa | 通信与AI交叉研究
-description: 记录粒子群算法、天线设计、通信领域的学习与思考
-url: "https://zhouh406.github.io" # 替换为你的GitHub Pages实际地址
-baseurl: "" # 个人主页仓库无需子路径，留空
+description: 通信领域硕士研究生，专注于粒子群算法、天线设计、射频技术的交叉研究与应用
+url: "https://zhouh406.github.io"
+baseurl: ""
+author: zchhaa
+email: zhouh268@mail2.sysu.edu.cn
+lang: zh-CN
 
-# 主题与扩展（使用Jekyll官方Minima主题，易扩展）
+# 主题与扩展
 remote_theme: jekyll/minima
 minima:
-  skin: auto # 自动适配浅色/深色模式，也可指定"dark"
-  social_links: # 社交平台链接（需替换为你的账号）
+  skin: auto
+  social_links:
     github: zhouh406
-    # linkedin: your-linkedin-username
-    # twitter: your-twitter-username
+    email: zhouh268@mail2.sysu.edu.cn
+  show_footer_info: true
+  show_social_links: true
 
-# 导航栏（若需额外页面，可创建about.md等并在此配置）
+# 导航栏
 header_pages:
-  # - about.md
+  - about.md
 
-# 插件（GitHub Pages默认支持，增强功能）
+# 插件
 plugins:
-  - jekyll-feed # 生成RSS订阅
-  - jekyll-seo-tag # SEO优化
-  - jekyll-sitemap # 站点地图
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+
+# SEO优化
+seo:
+  type: Person
+  name: zchhaa
+  description: 通信领域硕士研究生，专注于粒子群算法、天线设计、射频技术研究
+  url: https://zhouh406.github.io
+  image: /assets/profile.jpg
+  social:
+    name: zchhaa
+    links:
+      - https://github.com/zhouh406
+      - mailto:zhouh268@mail2.sysu.edu.cn
+
+# 分页设置
+paginate: 5
+paginate_path: "/page:num/"
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
